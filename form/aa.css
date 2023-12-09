@@ -1,0 +1,152 @@
+header{
+    width: auto;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.logo{
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    background-color: rgb(52, 49, 49);
+    width: 170px;
+    border: 1px solid rgb(37, 103, 92);
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: serif;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul li:hover{
+    background-color: rgb(196, 53, 53);
+
+}
+.navbar ul ul{
+    display: none;
+}
+.navbar ul li:hover>ul{
+    display: block;
+}
+
+
+
+
+
+
+h1{
+    border:5px solid red;
+    outline-offset: 10px;
+    margin: 20px;
+    font-size: xx-large;
+    font-style: italic;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    box-shadow: 10px;
+}
+body{
+    background-image: url("mac.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: x-large;
+}
+p1{
+    font-size: xx-large;
+    text-transform: capitalize;
+    text-indent: 40px;
+    font-style: oblique;
+}
+p2{
+    font-style: unset;
+}
+a{
+    color: rgb(255, 0, 0);
+}
+/* a:hover{
+    color: red;
+    background-color: black;
+} */
+a:visited{
+    color: white;
+}
+center{
+    color: antiquewhite;
+}
+input{
+    color: red;
+    background-color: beige;
+    border: 3px solid rgb(0, 0, 0);
+}
+textarea{
+    background-color: beige;
+}
+center .details{
+    border: 2px solid black;
+    width: 600px;
+    height: 800px;
+    background-color: darkslategrey;
+}
+
+
+
+
+footer{
+    position: relative;
+    bottom: auto;
+    width: autoh;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.name h2{
+    font-family: serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.text p{
+    width: 650px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: -30px;
+}
+.icon i{
+    font-size: 35px;
+    position: relative;
+    top: -20px;
+    padding: 5px;
+}
+.copy{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    font-size: 25px;
+    line-height: 50px;
+}
+.text{
+    font-size: 20px;
+}
